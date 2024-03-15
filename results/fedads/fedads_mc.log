@@ -1,0 +1,38 @@
+[2023-10-19 13:26:10,927][INFO] 
+[2023-10-19 13:26:10,927][INFO] >>> Model completion...
+[2023-10-19 13:26:10,928][INFO] model completion config:
+[2023-10-19 13:26:10,928][INFO] [dataset]
+[2023-10-19 13:26:10,928][INFO]     name = fedads
+[2023-10-19 13:26:10,928][INFO]     guestcols = l_i_fea_1,l_i_fea_2,l_i_fea_4,l_i_fea_5,l_u_fea_6,l_i_fea_3,l_i_fea_6,l_i_fea_7,l_i_fea_8,l_i_fea_9,l_i_fea_10,l_u_fea_2,l_u_fea_3,l_u_fea_4,l_u_fea_5
+[2023-10-19 13:26:10,929][INFO]     hostcols = l_u_fea_1,f_u_fea_1,f_u_fea_2,f_uc_fea_1,f_uc_fea_2,f_c
+[2023-10-19 13:26:10,929][INFO]     guestdensenum = 5
+[2023-10-19 13:26:10,929][INFO]     guestsparsenum = 10
+[2023-10-19 13:26:10,929][INFO]     hostdensenum = 1
+[2023-10-19 13:26:10,929][INFO]     hostsparsenum = 5
+[2023-10-19 13:26:10,929][INFO]     embeddingsize = 4
+[2023-10-19 13:26:10,930][INFO]     bottomfcdim = 256,64
+[2023-10-19 13:26:10,930][INFO]     embeddingdim = 64
+[2023-10-19 13:26:10,930][INFO]     topfcdim = 1
+[2023-10-19 13:26:10,930][INFO] [training]
+[2023-10-19 13:26:10,930][INFO]     epoch = 5
+[2023-10-19 13:26:10,930][INFO]     learningrate = 0.05
+[2023-10-19 13:26:10,930][INFO]     batchsize = 1024
+[2023-10-19 13:26:10,930][INFO]     device = cuda
+[2023-10-19 13:26:10,930][INFO]     usemaloptimizer = 0
+[2023-10-19 13:26:10,930][INFO]     printinterval = 5
+[2023-10-19 13:26:10,931][INFO] [privacy]
+[2023-10-19 13:26:10,931][INFO]     normattack = 1
+[2023-10-19 13:26:10,931][INFO]     embattack = 1
+[2023-10-19 13:26:10,931][INFO]     modelcompletion = 1
+[2023-10-19 13:26:10,931][INFO]     mcnlabeled = 200
+[2023-10-19 13:26:10,932][INFO]     mcbatch = 16
+[2023-10-19 13:26:10,932][INFO]     mclr = 1e-3
+[2023-10-19 13:26:10,932][INFO]     mcepochs = 5
+[2023-10-19 13:26:10,932][INFO]     mciter = 1024
+[2023-10-19 13:26:10,932][INFO]     mcalpha = 0.75
+[2023-10-19 13:26:10,933][INFO]     mclambdau = 50
+[2023-10-19 13:26:10,933][INFO]     mct = 0.8
+[2023-10-19 13:26:10,933][INFO]     mcemadecay = 0.999
+[2023-10-19 13:26:10,933][INFO]     dcorloss = 0
+[2023-10-19 13:26:10,933][INFO]     dcorcoef = 0.01
+[2023-10-19 13:26:10,934][INFO]     labelconfusion = 0
